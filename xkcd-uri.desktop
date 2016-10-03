@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=XKCD URI Scheme
+NoDisplay=true
+StartupNotify=false
+MimeType=x-scheme-handler/xkcd
+Exec=xkcd-open %u

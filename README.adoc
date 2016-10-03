@@ -1,0 +1,16 @@
+XKCD URI Scheme
+===============
+
+Simple little thing that allows links like xkcd://927 to work.
+
+Just made for fun, not expected to see any wide use.
+
+Installation
+------------
+
+Put `xdg-open` somewhere in your $PATH, and `xkcd-uri.desktop` into a
+location such as `$HOME/.local/share/applications`, and then run
+`update-desktop-database` on that latter directory.
+
+If it works, the command `xkcd://927` should open up your browser with
+the comic of that identifier.
